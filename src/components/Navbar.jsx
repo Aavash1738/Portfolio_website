@@ -14,12 +14,12 @@ const Navbar = () => {
     <nav className="mb-15 flex item-center justify-between py-6">
       <div className="group flex flex-shrink-0 items-center w-1/2">
         <img
-          className="w-1/5 h-20 mx-2 group-hover:hidden"
+          className="w-auto h-20 mx-2 group-hover:hidden"
           src={logo}
           alt="logo"
         ></img>
         <img
-          className="w-1/5 h-20 mx-2 hidden group-hover:block"
+          className="w-auto h-20 mx-2 hidden group-hover:block"
           src={logo2}
           alt="logo"
         ></img>
