@@ -10,6 +10,7 @@ const About = () => {
         initial={{ y: -100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
         className="my-20 text-center text-4xl"
       >
         About <span className="text-neutral-500"> Me</span>

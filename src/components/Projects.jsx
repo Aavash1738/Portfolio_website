@@ -9,6 +9,7 @@ const Projects = () => {
         initial={{ y: -100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
         className="my-20 text-center text-4xl"
       >
         Projects
@@ -19,6 +20,7 @@ const Projects = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
+            viewport={{ once: true }}
             key={index}
             className="mb-12 flex flex-col lg:flex-row justify-center items-center lg:items-center gap-6"
           >

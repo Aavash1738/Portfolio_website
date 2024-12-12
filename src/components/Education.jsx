@@ -33,6 +33,7 @@ const Education = () => {
         initial={{ y: -100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
         className="my-20 text-center text-4xl"
       >
         Education and Professional{" "}
@@ -45,6 +46,7 @@ const Education = () => {
               variants={leftVariant(0.2)}
               initial="hidden"
               whileInView="visible"
+              viewport={{ once: true }}
               className="w-full lg:w-1/4"
             >
               <p className="mb-2 text-sm text-neutral-400">{education.year}</p>
