@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../assets/logo_white.png";
-import logo2 from "../assets/logo_black.png";
 import {
   FaLinkedin,
   FaGithub,
@@ -12,17 +11,8 @@ import { SiLinktree } from "react-icons/si";
 const Navbar = () => {
   return (
     <nav className="mb-15 flex item-center justify-between py-6">
-      <div className="group flex flex-shrink-0 items-center w-1/2">
-        <img
-          className="w-auto h-20 mx-2 group-hover:hidden"
-          src={logo}
-          alt="logo"
-        ></img>
-        <img
-          className="w-auto h-20 mx-2 hidden group-hover:block"
-          src={logo2}
-          alt="logo"
-        ></img>
+      <div className="flex flex-shrink-0 items-center w-1/2">
+        <img className="w-auto h-20 mx-2" src={logo} alt="logo"></img>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a

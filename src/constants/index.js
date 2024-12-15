@@ -1,8 +1,8 @@
-import project1 from "../assets/projects/project_1.png";
-import project2 from "../assets/projects/project_2.png";
-import project3 from "../assets/projects/project_3.png";
-// import project4 from "../assets/projects/project_4.png";
-import project5 from "../assets/projects/project_5.png";
+import project1 from "../assets/projects/project_1.webp";
+import project2 from "../assets/projects/project_2.webp";
+import project3 from "../assets/projects/project_3.webp";
+// import project4 from "../assets/projects/project_4.webp";
+import project5 from "../assets/projects/project_5.webp";
 
 export const HERO_CONTENT = ` I am a dedicated 4th-year Electronics engineering student at Pulchowk Campus, driven by my passion for innovation and learning. Alongside my certifications in cybersecurity and artificial intelligence, I have developed a keen interest in web development, particularly frontend design and functionality. Although I am yet to gain professional experience in my field, my commitment to honesty, punctuality, and continuous growth defines my work ethic. My ultimate goal is to leverage my skills to help businesses thrive while building exceptional personal and professional experiences. Let’s create something remarkable together!`;
 
