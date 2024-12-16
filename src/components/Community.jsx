@@ -36,7 +36,7 @@ const Community = () => {
         viewport={{ once: true }}
         className="my-20 text-center text-4xl"
       >
-        Leadership and <span className="text-neutral-500"> Volunteering</span>
+        Social Impact <span className="text-neutral-500"> Initiatives</span>
       </motion.h2>
       <div>
         {COMMUNITY.map((COMMUNITY, index) => (
