@@ -6,6 +6,7 @@ import Technologies from "./components/Technologies";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Community from "./components/Community";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <About />
         <Technologies />
         <Education />
+        <Community />
         <Projects />
         <Contact />
       </div>

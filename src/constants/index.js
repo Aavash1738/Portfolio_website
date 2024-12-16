@@ -4,17 +4,17 @@ import project3 from "../assets/projects/project_3.webp";
 // import project4 from "../assets/projects/project_4.webp";
 import project5 from "../assets/projects/project_5.webp";
 
-export const HERO_CONTENT = ` I am a dedicated 4th-year Electronics engineering student at Pulchowk Campus, driven by my passion for innovation and learning. Alongside my certifications in cybersecurity and artificial intelligence, I have developed a keen interest in web development, particularly frontend design and functionality. Although I am yet to gain professional experience in my field, my commitment to honesty, punctuality, and continuous growth defines my work ethic. My ultimate goal is to leverage my skills to help businesses thrive while building exceptional personal and professional experiences. Let’s create something remarkable together!`;
+export const HERO_CONTENT = ` I am a dedicated 4th-year Electronics engineering student at Pulchowk Campus, driven by my passion for innovation and learning. Alongside my certifications in cybersecurity, I have developed a keen interest in web development, particularly frontend design and functionality. Although I am yet to gain professional experience in my field, my commitment to honesty, punctuality, and continuous growth defines my work ethic. My ultimate goal is to leverage my skills to help businesses thrive while building exceptional personal and professional experiences. Let’s create something remarkable together!`;
 
-export const ABOUT_TEXT = `Hello! My name is Aavash Bhattarai, and I’m currently pursuing my undergraduate degree in Electronics Engineering at Pulchowk Campus. Born and raised in Kathmandu, I am the youngest in my family. My educational journey began at Guheshwari Boarding High School, where I completed my SEE, followed by my +2 studies at Uniglobe College.<br><br>
+export const ABOUT_TEXT = `Hi! I’m an Electronics Engineering undergraduate at Pulchowk Campus in Kathmandu. I am passionate about cybersecurity and web development, with a strong drive to create innovative solutions that address real-world challenges.<br><br>
 
-I am deeply interested in cybersecurity, web development, and artificial intelligence, and I aspire to work on projects that combine these fields to create innovative and impactful solutions. My curiosity about how intelligent systems work drives my passion for AI, and I am committed to honing my skills in this transformative domain.<br><br>
+Throughout my academic journey, I’ve gained hands-on experience in various projects and freelancing roles, including data entry tasks and data annotation in Toloka. These experiences have sharpened my time management and problem-solving skills, laying a solid foundation for my professional growth.<br><br>
 
-In the past, I’ve gained experience as a freelancer on Toloka and as a volunteer for data entry tasks. While these roles didn’t provide extensive professional exposure, they helped me build strong time management and task execution skills—qualities I am confident will continue to serve me well in future endeavors.<br><br>
+When I’m not coding or exploring new technologies, I enjoy singing, hiking, and immersing myself in nature. These activities fuel my creativity and keep me motivated to tackle new challenges.<br><br>
 
-Beyond coding and technology, I am a curious and active individual. I enjoy exploring emerging technologies, singing, and spending time in nature. Hiking, occasional book reading, and playing sports—despite not being particularly skilled at them—are some of the activities that bring joy to my life.<br><br>
+I am excited to collaborate on impactful projects and continue expanding my skills in the ever-evolving tech landscape.
 
-I’m motivated to continue learning, take on new challenges, and grow in my field. I’m excited about what the future holds and the opportunity to contribute to projects that merge my passions.`;
+`;
 
 export const EDUCATION = [
   {
@@ -40,6 +40,15 @@ export const EDUCATION = [
     institute: "ISC2",
     description: `Received the "Certified in Cybersecurity" certification.`,
     certification: true,
+  },
+];
+
+export const COMMUNITY = [
+  {
+    year: "Nov 2024",
+    title: "WIA x CIT Instructor",
+    description: `Promoted responsible internet usage and cybersecurity awareness among students in Nepal's far-west region through interactive sessions and career guidance, fostering digital literacy and ethical technology use.`,
+    certification: false,
   },
 ];
 

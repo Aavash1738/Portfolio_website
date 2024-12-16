@@ -2,7 +2,7 @@ import React from "react";
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
 import { TbBrandFramerMotion } from "react-icons/tb";
-import { SiTensorflow, SiJupyter, SiPytorch } from "react-icons/si";
+import { SiTensorflow, SiJupyter } from "react-icons/si";
 import { motion, optimizedAppearDataAttribute } from "framer-motion";
 
 const iconsVariant = (duration) => ({
@@ -82,18 +82,6 @@ const Technologies = () => {
             title="TensorFlow"
             className="text-7xl text-[#FF6F00]"
           ></SiTensorflow>
-        </motion.div>
-        <motion.div
-          variants={iconsVariant(5)}
-          initial="initial"
-          animate="animate"
-          whileHover={{ y: -4, opacity: 0.5 }}
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <SiPytorch
-            title="Pytorch"
-            className="text-7xl text-[#EE4C2C]"
-          ></SiPytorch>
         </motion.div>
         <motion.div
           variants={iconsVariant(4.5)}
