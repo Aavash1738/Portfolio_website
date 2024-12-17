@@ -59,7 +59,7 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              title="Click here to download CV"
+              title="Click here to download my CV"
             >
               <a href="/cv.pdf" target="_blank">
                 <div className="flex gap-3 justify-center items-center group">
