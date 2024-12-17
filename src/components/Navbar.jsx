@@ -44,7 +44,7 @@ const Navbar = () => {
           className="hover:text-[#E1306c]"
           target="_blank"
           href="https://www.instagram.com/aavash.2002/"
-          title="Link to Instagram"
+          title="Link to Instagram page."
         >
           <FaInstagram />
         </a>
