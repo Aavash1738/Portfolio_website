@@ -19,6 +19,7 @@ const Navbar = () => {
           target="_blank"
           className="hover:text-[#0077B5]"
           href="https://www.linkedin.com/in/aavash-bhattarai-2a92a7242/"
+          title="Link to my LinkedIn profile."
         >
           <FaLinkedin />
         </a>
@@ -26,29 +27,33 @@ const Navbar = () => {
           className="hover:text-black"
           href="https://github.com/Aavash1738"
           target="_blank"
+          title="Link to my Github profile."
         >
           <FaGithub />
-        </a>
-        <a
-          className="hover:text-[#E1306c]"
-          target="_blank"
-          href="https://www.instagram.com/aavash.2002/"
-        >
-          <FaInstagram />
         </a>
         <a
           className="hover:text-[#ea4335]"
           href="https://mail.google.com/mail/?view=cm&fs=1&to=bhattaraiaavash1@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
+          title="Click here to mail me."
         >
           <FaRegEnvelope />
+        </a>
+        <a
+          className="hover:text-[#E1306c]"
+          target="_blank"
+          href="https://www.instagram.com/aavash.2002/"
+          title="Link to Instagram"
+        >
+          <FaInstagram />
         </a>
         <a
           className="hover:text-[#39ee9b] "
           href="https://linktr.ee/Aavash1738"
           target="_blank"
           rel="noopener noreferrer"
+          title="Link to my Linktree page."
         >
           <SiLinktree />
         </a>
