@@ -20,7 +20,7 @@ export const EDUCATION = [
   {
     year: "2021",
     institute: "Uniglobe College",
-    description: `Completed Plus Two (High School) from Uniglobe College, Kamaladi, with a 3.55 GPA.`,
+    description: `Completed Plus Two (High School) from Uniglobe College, Kamaladi, with a 3.59 GPA.`,
     certification: false,
   },
   {
