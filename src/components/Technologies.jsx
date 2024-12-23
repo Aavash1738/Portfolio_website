@@ -31,7 +31,7 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <RiReactjsLine
-            title="React"
+            title="React."
             className="text-7xl text-cyan-400"
           ></RiReactjsLine>
         </motion.div>
@@ -43,7 +43,7 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <RiTailwindCssFill
-            title="Tailwind"
+            title="Tailwind CSS."
             className="text-7xl text-blue-500"
           ></RiTailwindCssFill>
         </motion.div>
@@ -55,7 +55,7 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaBootstrap
-            title="Bootstrap"
+            title="Bootstrap."
             className="text-7xl text-purple-700"
           ></FaBootstrap>
         </motion.div>
@@ -67,7 +67,7 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <TbBrandFramerMotion
-            title="Framer Motion"
+            title="Framer Motion."
             className="text-7xl text-blue-900"
           ></TbBrandFramerMotion>
         </motion.div>
@@ -79,7 +79,7 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiTensorflow
-            title="TensorFlow"
+            title="TensorFlow."
             className="text-7xl text-[#FF6F00]"
           ></SiTensorflow>
         </motion.div>
@@ -91,7 +91,7 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiJupyter
-            title="Jupyter"
+            title="Jupyter Notebook."
             className="text-7xl text-[#FF5500]"
           ></SiJupyter>
         </motion.div>
