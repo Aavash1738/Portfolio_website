@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/profile.jpeg";
+import profilePic from "../assets/profile_2.jpeg";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaFileArrowDown } from "react-icons/fa6";
 
@@ -10,13 +10,13 @@ const container = (delay) => ({
 });
 
 const Hero = () => {
-  const titles = ["Student", "Cybersecurity Aspirant", "Frontend Developer"];
+  const titles = ["Cybersecurity Aspirant", "UI/UX Designer"];
   const [currentTitle, setCurrentTitle] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentTitle((prev) => (prev + 1) % titles.length);
-    }, 2000); // Change title every 2 seconds
+    }, 4000); // Change title every 2 seconds
     return () => clearInterval(interval); // Cleanup interval
   }, [titles.length]);
 
