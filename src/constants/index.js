@@ -83,6 +83,7 @@ export const PROJECTS = [
     description:
       "A fully functional web app built with PostgreSQL and an API for tracking match updates, team stats, and player details.",
     technologies: ["PostgreSQL", "React", "Node.js", "Axios"],
+    URL: null,
   },
   {
     title: "Wakeword and command detection AI",
@@ -90,6 +91,7 @@ export const PROJECTS = [
     description:
       "An AI model detecting a wakeword and executing commands from a set of predefined actions.",
     technologies: ["TensorFlow", "Jupyter Notebook", "Librosa", "React"],
+    URL: null,
   },
   {
     title: "Greenhouse Monitoring App",
@@ -104,6 +106,7 @@ export const PROJECTS = [
       "AWS IoT Core",
       "AWS S3",
     ],
+    URL: null,
   },
   {
     title: "Tenzies",
@@ -111,6 +114,7 @@ export const PROJECTS = [
     description:
       "Developed a web version of the popular Tenzies dice game, drawing inspiration from the Scrimba React tutorial. The project allowed me to gain a deeper understanding of utilizing localStorage in React.",
     technologies: ["React", "React Router"],
+    URL: "https://tenzies-aavash.netlify.app/",
   },
 ];
 

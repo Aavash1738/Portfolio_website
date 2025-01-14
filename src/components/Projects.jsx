@@ -34,7 +34,15 @@ const Projects = () => {
               />
             </div>
             <div className="w-full max-w-xl text-center lg:text-left">
-              <h6 className="mb-4 text-xl font-semibold">{project.title}</h6>
+              {project.URL ? (
+                <a href={project.URL} target="_blank">
+                  <h6 className="mb-4 text-xl font-semibold">
+                    {project.title}
+                  </h6>{" "}
+                </a>
+              ) : (
+                <h6 className="mb-4 text-xl font-semibold">{project.title}</h6>
+              )}
               <p className="mb-4 text-neutral-400">{project.description}</p>
               <div>
                 {project.technologies.map((tech, index) => (
