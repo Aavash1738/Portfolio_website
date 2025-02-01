@@ -29,7 +29,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-10 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-10 text-6xl font-light tracking-tight lg:mt-16 lg:text-7xl lg:font-light"
             >
               Aavash <span className="text-neutral-500"> Bhattarai</span>
             </motion.h1>
