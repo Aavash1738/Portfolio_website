@@ -35,12 +35,12 @@ export const EDUCATION = [
     description: `Received the "Career Essentials in Cybersecurity" certification.`,
     certification: true,
   },
-  // {
-  //   year: "Nov 2024",
-  //   institute: "ISC2",
-  //   description: `Received the "Certified in Cybersecurity" certification.`,
-  //   certification: true,
-  // },
+  {
+    year: "Jan 2025",
+    institute: "ISC2",
+    description: `Received the "Certified in Cybersecurity" certification.`,
+    certification: true,
+  },
 ];
 
 export const COMMUNITY = [
