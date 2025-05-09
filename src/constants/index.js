@@ -8,8 +8,6 @@ export const HERO_CONTENT = ` I am a dedicated 4th-year Electronics engineering 
 
 export const ABOUT_TEXT = `Hi! I’m an Electronics Engineering undergraduate at Pulchowk Campus in Kathmandu. I am passionate about cybersecurity and software development, with a strong drive to create innovative solutions that address real-world challenges.<br><br>
 
-Throughout my academic journey, I’ve gained hands-on experience in various projects and freelancing roles, including data entry tasks and data annotation in Toloka. These experiences have sharpened my time management and problem-solving skills, laying a solid foundation for my professional growth.<br><br>
-
 I am deeply passionate about cybersecurity and have taken numerous courses to build a solid theoretical and practical foundation in key cybersecurity domains. I hold certifications such as ISC2 Certified in Cybersecurity and Microsoft’s Career Essentials in Cybersecurity, which have equipped me with formal knowledge in security operations, cyber risk management, and advanced defensive techniques.<br><br>
 
 Beyond coursework, I have actively engaged in hands-on projects and real-world simulations, such as the SOC Mentorship at Vairav Tech, where I gained experience with log monitoring, ELK stack setup, alerting mechanisms, and incident triage workflows — sharpening my ability to work within a Security Operations Center (SOC) environment.<br><br>
