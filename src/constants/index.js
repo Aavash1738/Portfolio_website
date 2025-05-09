@@ -6,13 +6,13 @@ import project5 from "../assets/projects/project_5.webp";
 
 export const HERO_CONTENT = ` I am a dedicated 4th-year Electronics engineering student at Pulchowk Campus, driven by my passion for innovation and learning. Alongside my certifications in cybersecurity, I have developed a keen interest in software development, particularly frontend design and functionality. Although I am yet to gain professional experience in my field, my commitment to honesty, punctuality, and continuous growth defines my work ethic. My ultimate goal is to leverage my skills to help businesses thrive while building exceptional personal and professional experiences. Let’s create something remarkable together!`;
 
-export const ABOUT_TEXT = `Hi! I’m an Electronics Engineering undergraduate at Pulchowk Campus in Kathmandu. I am passionate about cybersecurity and software development, with a strong drive to create innovative solutions that address real-world challenges.<br><br>
+export const ABOUT_TEXT = `Hi! I’m an Electronics Engineering undergraduate at Pulchowk Campus in Kathmandu, passionate about cybersecurity and software development, with a strong drive to create innovative solutions that address real-world challenges.<br><br>
 
-I am deeply passionate about cybersecurity and have taken numerous courses to build a solid theoretical and practical foundation in key cybersecurity domains. I hold certifications such as ISC2 Certified in Cybersecurity and Microsoft’s Career Essentials in Cybersecurity, which have equipped me with formal knowledge in security operations, cyber risk management, and advanced defensive techniques.<br><br>
+I have built a solid theoretical and practical foundation in key cybersecurity domains, backed by certifications such as ISC2 Certified in Cybersecurity and Microsoft’s Career Essentials in Cybersecurity. These have equipped me with formal knowledge in security operations, cyber risk management, and advanced defensive techniques.<br><br>
 
-Beyond coursework, I have actively engaged in hands-on projects and real-world simulations, such as the SOC Mentorship at Vairav Tech, where I gained experience with log monitoring, ELK stack setup, alerting mechanisms, and incident triage workflows — sharpening my ability to work within a Security Operations Center (SOC) environment.<br><br>
+Beyond coursework, I’ve actively engaged in hands-on projects and real-world simulations, including the SOC Mentorship at Vairav Tech, where I gained experience in log monitoring, ELK stack setup, alerting mechanisms, and incident triage — sharpening my ability to work effectively within a Security Operations Center (SOC) environment.<br><br>
 
-When I’m not coding or exploring new technologies, I enjoy singing, hiking, and immersing myself in nature. These activities fuel my creativity and keep me motivated to tackle new challenges.
+When I’m not coding or exploring new technologies, I enjoy singing, hiking, and immersing myself in nature — activities that fuel my creativity and keep me motivated to tackle new challenges.
 `;
 
 export const EDUCATION = [
