@@ -2,7 +2,10 @@ import React from "react";
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
 import { TbBrandFramerMotion } from "react-icons/tb";
-import { SiTensorflow, SiJupyter } from "react-icons/si";
+import { SiSplunk } from "react-icons/si";
+import { SiKibana } from "react-icons/si";
+import { SiWireshark } from "react-icons/si";
+
 import { motion, optimizedAppearDataAttribute } from "framer-motion";
 
 const iconsVariant = (duration) => ({
@@ -78,10 +81,10 @@ const Technologies = () => {
           whileHover={{ y: 0, opacity: 0.5 }}
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiTensorflow
-            title="TensorFlow."
-            className="text-7xl text-[#FF6F00]"
-          ></SiTensorflow>
+          <SiSplunk
+            title="Splunk"
+            className="text-7xl text-[#69C947]"
+          ></SiSplunk>
         </motion.div>
         <motion.div
           variants={iconsVariant(4.5)}
@@ -90,10 +93,22 @@ const Technologies = () => {
           whileHover={{ y: 0, opacity: 0.5 }}
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiJupyter
-            title="Jupyter Notebook."
-            className="text-7xl text-[#FF5500]"
-          ></SiJupyter>
+          <SiKibana
+            title="ELK Stack"
+            className="text-7xl text-[#00BFB3]"
+          ></SiKibana>
+        </motion.div>
+        <motion.div
+          variants={iconsVariant(5)}
+          initial="initial"
+          animate="animate"
+          whileHover={{ y: 0, opacity: 0.5 }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiWireshark
+            title="WireShark"
+            className="text-7xl text-[#1679A7]"
+          ></SiWireshark>
         </motion.div>
       </div>
     </div>

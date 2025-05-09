@@ -10,7 +10,7 @@ const container = (delay) => ({
 });
 
 const Hero = () => {
-  const titles = ["Cybersecurity Aspirant", "UI/UX Designer"];
+  const titles = ["Aspiring SoC Analyst", "MERN Developer"];
   const [currentTitle, setCurrentTitle] = useState(0);
 
   useEffect(() => {
